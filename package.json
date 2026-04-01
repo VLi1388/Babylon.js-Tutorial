@@ -1,0 +1,31 @@
+{
+  "name": "babylon.js-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial learning for babylon.js; https://doc.babylonjs.com/guidedLearning/createAGame/",
+  "homepage": "https://github.com/VLi1388/Babylon.js-Tutorial#readme",
+  "bugs": {
+    "url": "https://github.com/VLi1388/Babylon.js-Tutorial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VLi1388/Babylon.js-Tutorial.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --port 8080"
+  },
+  "devDependencies": {
+    "@babylonjs/core": "^9.0.0",
+    "@babylonjs/inspector": "^9.0.0",
+    "html-webpack-plugin": "^5.6.6",
+    "ts-loader": "^9.5.4",
+    "typescript": "^6.0.2",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
